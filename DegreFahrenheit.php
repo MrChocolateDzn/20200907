@@ -19,7 +19,15 @@ function Fahrenheitdegre($F){
     return $FC;
 }
 $degre1 = 95;
-echo "La conversion de $degre1 degrés Fahrenheit vers degrés donne : ".Fahrenheitdegre($degre1)." C."
+echo "La conversion de $degre1 degrés Fahrenheit vers degrés donne : ".Fahrenheitdegre($degre1)." C. <BR>";
+
+function boucleliste($N) {
+    for($i=0; $i <= $N; $i++) {
+        echo $i," ";
+    }
+}
+$N = 5;
+boucleliste($N);
 ?>
 </body>
 </html>
