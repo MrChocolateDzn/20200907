@@ -1,15 +1,14 @@
 <?php
-function test()
+function test($nombre)
 {
     static $count = 0;
 
     $count++;
     echo $count;
-    if ($count < 10) {
-        test();
+    if ($count < $nombre) {
+        test($nombre);
     }
     $count--;
-    echo $count;
 }
 
 test();
