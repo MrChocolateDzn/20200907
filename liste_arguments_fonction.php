@@ -11,7 +11,7 @@ function analyse_arguments(...$mesArguments) {
 echo 'Il y a en tout ',count($mesArguments), ' arguments passées à la fonction: ' ;
 echo implode(', ',$mesArguments) ;
 }
-    
+
     analyse_arguments('riri','fifi','loulou',15,6,9,2) ;
     
 ?>
